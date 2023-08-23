@@ -119,6 +119,8 @@ body {
     transition: $transition;
   }
 
+  a:hover,
+  a:focus,
   a:visited {
     color: $white;
   }
