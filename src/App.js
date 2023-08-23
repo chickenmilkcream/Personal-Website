@@ -46,6 +46,15 @@ function App() {
           className={style.particles}
         />
       )}
+
+      {!darkMode && (
+        <Particles
+          id="tsparticles"
+          init={particlesInit}
+          options={snow}
+          className={style.particles}
+        />
+      )}
     </div>
   );
 }
