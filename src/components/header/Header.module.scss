@@ -1,0 +1,42 @@
+@import "../../styles/variables";
+
+.profile {
+  .photo {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    img {
+      width: 60%;
+      border-radius: 50%;
+      margin: auto;
+      display: block;
+    }
+
+    a img:last-child {
+      display: none;
+    }
+    a:hover img:last-child {
+      display: block;
+    }
+    a:hover img:first-child {
+      display: none;
+    }
+  }
+
+  .info {
+    text-align: center;
+    h1 {
+      letter-spacing: 3px;
+      text-transform: capitalize;
+    }
+    p {
+      margin-top: 1vh;
+      font-weight: 300;
+    }
+    ul {
+      margin-top: 0;
+    }
+    li {
+      display: inline;
+    }
+  }
+}

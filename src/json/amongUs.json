@@ -59,7 +59,7 @@
                 "offset": 0
             },
             "enable": true,
-            "speed": 5,
+            "speed": 2,
             "direction": "right",
             "outModes": "out"
         },
@@ -84,7 +84,6 @@
         }
     },
     "background": {
-        "color": "#000000"
     },
     "emitters": {
         "position": {
@@ -114,7 +113,7 @@
                 "value": 40
             },
             "move": {
-                "speed": 10,
+                "speed": 5,
                 "outModes": {
                     "default": "none",
                     "right": "destroy"

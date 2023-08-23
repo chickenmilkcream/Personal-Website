@@ -1,0 +1,136 @@
+@import "./styles/_variables";
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: rgba(34, 34, 34, 0.8);
+  text-decoration: none;
+  &:hover,
+  :focus {
+    color: darken($dark, 20%);
+  }
+}
+
+p {
+  margin-top: 2vh;
+}
+
+img {
+  max-width: 100%;
+  user-select: none;
+  pointer-events: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 2vh;
+  li {
+    margin-bottom: 2vh;
+  }
+}
+
+body {
+  font-family: $font;
+  font-size: 2vh;
+  line-height: 3vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+
+  > .header {
+    flex: 0 0 30vw;
+    order: 1;
+  }
+  > .resume {
+    flex: 2;
+    order: 2;
+  }
+}
+
+.header {
+  z-index: 1;
+  padding: 2.5em;
+}
+
+.resume {
+  z-index: 1;
+  padding: 2.5em;
+  padding-top: 7.5vh;
+  padding-right: 25vw;
+}
+
+.signature {
+  position: fixed;
+  font-weight: 100;
+  bottom: 1vh;
+  left: 0;
+  letter-spacing: 4px;
+  font-size: 0.5rem;
+  width: 100vw;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .header {
+    order: 2;
+  }
+
+  .resume {
+    order: 1;
+    padding: 2.5em;
+  }
+
+  .signature {
+    position: relative;
+    width: auto;
+  }
+}
+
+.dark {
+  background-color: $darkblue;
+  color: $white;
+  transition: $transition;
+
+  a,
+  i,
+  li {
+    color: $white;
+    transition: $transition;
+  }
+
+  a:visited {
+    color: $white;
+  }
+}
+
+.light {
+  background-color: $white;
+  color: $dark;
+  transition: $transition;
+}
+
+.particles {
+  position: absolute;
+  z-index: 0;
+}

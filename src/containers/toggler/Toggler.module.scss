@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.toggler:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: $transition;
+}
+.toggler {
+    float: right;
+}
+.togglerContainer {
+  height: 1vh;
+  padding: 2.5em;
+  padding-right: 25vw;
+}

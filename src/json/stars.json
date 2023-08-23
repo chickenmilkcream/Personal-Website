@@ -1,7 +1,6 @@
 {
     "fullScreen": {
-        "enable": true,
-        "zIndex": 1
+        "enable": true
     },
     "particles": {
         "number": {
@@ -13,7 +12,7 @@
         "shape": {
             "type": "star",
             "options": {
-                "sides": 5
+                "sides": 1
             }
         },
         "opacity": {
@@ -21,7 +20,7 @@
             "random": false,
             "anim": {
                 "enable": false,
-                "speed": 1,
+                "speed": 0.5,
                 "opacity_min": 0.1,
                 "sync": false
             }
@@ -106,7 +105,6 @@
     },
     "retina_detect": true,
     "background": {
-        "color": "#111",
         "image": "",
         "position": "50% 50%",
         "repeat": "no-repeat",
