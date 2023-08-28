@@ -1,2 +1,2 @@
-# Website Link
-[chickenmilkcream.github.io](https://chickenmilkcream.github.io/)
+# Find my website here
+[amypeng.tech](http://amypeng.tech/)
