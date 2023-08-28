@@ -6,7 +6,7 @@ const Education = () => {
       <h2>Education</h2>
       <h3>University of Toronto</h3>
       <h4>Honours BSc, Computer Science + Statistics Major, Math Minor</h4>
-      <h5>09.2018 - 06.20 </h5>
+      <h5>09.2018 - 06.2023, (3.8/4.0 cGPA) </h5>
       <p>
         My time here was a real rollercoaster. Half of it was virtual thanks to
         COVID, which meant lots of Discord study sessions. But it challenged me

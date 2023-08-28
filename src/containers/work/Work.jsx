@@ -25,7 +25,7 @@ const experiences = [
     position: "Software Developer Intern",
     date: "05.2021 - 05.2022",
     description: [
-      "🔐 Planned and developed a new customizable task grouping feature using ReactJS, Django, and PostgreSQL, improving workflow and code reusability for 100+ enterprise clients",
+      "🔐 Planned and developed a new customizable task grouping feature using ReactJS, Django, and PostgreSQL, improving workflow and code reusability for 50+ enterprise clients",
       "🔐 Reduced manual regression testing cycle (2 weeks to 4 days) and increased total automation coverage by 40% by implementing 200+ automation scripts using CypressJS to run on the CI/CD pipeline",
       "🔐 Received `Rising Star Award` for outstanding performance",
     ],
@@ -35,7 +35,7 @@ const experiences = [
     position: "Course Content Developer + Teaching Assistant",
     date: "05.2020 - 05.2022",
     description: [
-      "🍎 May 2020: Developed 4 programming assignments, 12 worksheets, and detailed documentation for courses taken by over 1000 students annually",
+      "🍎 May 2020: Developed 4 programming assignments, 12 worksheets, and detailed documentation for courses taken by 1000+ students annually",
       "🍎 Sept 2020 - Jan 2022: Led weekly 2-hour tutorials and office hours for 25+ students. Provided detailed feedback for assignments, projects, term tests, and exams",
       "🍎 Courses: Foundations of Computer Science I & II, Mathematical Expression and Reasoning",
     ],
@@ -58,7 +58,6 @@ const Work = () => {
               ))}
             </ul>
           </li>
-          
         ))}
       </ul>
     </div>

@@ -18,7 +18,7 @@ const experiences = [
     name: "Two-X Virtual Campus",
     subtitle: "UI/UX Research and Design",
     description:
-      "Through numerous design iterations, prototyping stages, and user research and interviews, we crafted a prototype of an immersive virtual campus mobile app aimed to enhance student interaction and collaboration in online educational settings. ",
+      "A prototype of an immersive virtual campus mobile app aimed to enhance student interaction and collaboration in online educational settings, crafted through numerous design iterations, prototyping stages, and user research/interviews.",
   },
 ];
 const Project = () => {
