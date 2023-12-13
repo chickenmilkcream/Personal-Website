@@ -7,11 +7,11 @@ export default function Toggler({ darkMode, handleClick }) {
       <div className={style.toggler}>
         {darkMode ? (
           <span onClick={handleClick} aria-label="Full Moon">
-            🌕
+            click me! 🌕
           </span>
         ) : (
           <span onClick={handleClick} aria-label="New Moon">
-            🌑
+            click me! 🌑
           </span>
         )}
       </div>

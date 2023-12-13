@@ -1,16 +1,12 @@
 import React from "react";
-import me1 from "../../images/me1.png";
-import me2 from "../../images/me2.png";
+import me from "../../images/me.png";
 import style from "./Header.module.scss";
 
 function Header() {
   return (
     <div className={style.profile}>
       <div className={style.photo}>
-        <a>
-          <img src={me1} alt="Profile of Amy Peng" />
-          <img src={me2} alt="Profile of Amy Peng" />
-        </a>
+        <img src={me} alt="Profile of Amy Peng" />
       </div>
       <div className={style.info}>
         <h1>Amy Peng</h1>

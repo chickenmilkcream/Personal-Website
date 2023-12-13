@@ -9,6 +9,7 @@ import React, { useState } from "react";
 import { Header, Resume } from "./components";
 import style from "./App.module.scss";
 import Toggler from "./containers/toggler/Toggler";
+import Scroller from "./containers/scroller/Scroller";
 
 function App() {
   const particlesInit = async (main) => {
@@ -36,6 +37,7 @@ function App() {
             <a href="https://www.linkedin.com/in/amy-p/"> Amy Peng</a>
           </p>{" "}
         </div>
+        <Scroller />
       </body>
 
       {darkMode && (

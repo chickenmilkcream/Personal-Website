@@ -5,4 +5,4 @@ export { default as Work } from "./work/Work";
 export { default as Project } from "./project/Project";
 export { default as Hobbies } from "./hobbies/Hobbies";
 export { default as Toggler } from "./toggler/Toggler";
-
+export { default as Scroller } from "./scroller/Scroller";
