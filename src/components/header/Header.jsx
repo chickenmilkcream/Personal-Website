@@ -20,6 +20,15 @@ function Header() {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+        <span>
+          <a
+            href="https://drive.google.com/file/d/1Mlh_uOJewq69PD0j0phzaHYeESdeNff0/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </span>
       </div>
     </div>
   );

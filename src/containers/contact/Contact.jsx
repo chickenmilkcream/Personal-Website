@@ -8,15 +8,7 @@ const Contact = () => {
       <ul>
         <li>
           <i class="fa-solid fa-location-dot"></i>
-          <span>
-            <a
-              href="https://www.emilymayrose.com/illustration#e-7"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Toronto
-            </a>{" "}
-          </span>
+          <span>Toronto</span>
         </li>
         <li>
           <i class="fa-brands fa-linkedin"></i>
@@ -64,11 +56,19 @@ const Contact = () => {
           <i class="fa-solid fa-file"></i>
           <span>
             <a
-              href="https://drive.google.com/file/d/1aOFF_cVS0mxrfNlypMXQyAir7lUP_db1/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Mlh_uOJewq69PD0j0phzaHYeESdeNff0/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
               Resume
+            </a>
+            /
+            <a
+              href="https://drive.google.com/file/d/1QHUP65DpLh9k-Rj-rxu7IpGw_ieX9P_o/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CV
             </a>{" "}
           </span>
         </li>
