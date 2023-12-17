@@ -24,7 +24,9 @@ function App() {
   return (
     <div className={darkMode ? style.dark : style.light}>
       <body>
-        <Toggler darkMode={darkMode} handleClick={handleClick} />
+        <div className={style.toggler}>
+          <Toggler darkMode={darkMode} handleClick={handleClick} />
+        </div>
         <div className={style.main}>
           <div className={style.header}>
             <Header />
@@ -37,7 +39,9 @@ function App() {
             <a href="https://www.linkedin.com/in/amy-p/"> Amy Peng</a>
           </p>{" "}
         </div>
-        <Scroller />
+        <div className={style.scroller}>
+          <Scroller />
+        </div>
       </body>
 
       {darkMode && (

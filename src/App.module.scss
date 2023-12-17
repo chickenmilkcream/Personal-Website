@@ -79,6 +79,12 @@ body {
   }
 }
 
+.scroller {
+  padding: 2em;
+  padding-right: 25vw;
+  font-size: 1rem;
+}
+
 .signature {
   position: fixed;
   font-weight: 100;
@@ -104,6 +110,22 @@ body {
   .resume {
     order: 1;
     padding: 2.5em;
+  }
+
+  .scroller {
+    display: none;
+  }
+
+  .toggler { /*smh why wont this align*/
+    text-align: center;
+    > .toggler {
+      padding-right: 0;
+      float: none;
+    }
+    > .toggler.togglerContainer {
+      padding-right: 0;
+      float: none;
+    }
   }
 }
 
