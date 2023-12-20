@@ -3,6 +3,15 @@ import "./Work.module.scss";
 
 const experiences = [
   {
+    employer: "Citibank",
+    position: "Software Developer Analyst",
+    date: "07.2023 - Present",
+    description: [
+      "📈 Manage the operation and deployment of several software stack versionings using Elastic Kubernetes Service",
+      "📈 Optimize resource efficiency by making strategic adjustments to Horizontal Pod Autoscaling settings by conducting performance tests",
+    ],
+  },
+  {
     employer: "University of Toronto, CAP Lab",
     position: "Undergraduate Research Assistant",
     date: "09.2022 - 01.2023",

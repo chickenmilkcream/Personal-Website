@@ -3,6 +3,12 @@ import style from "./Project.module.scss";
 
 const experiences = [
   {
+    name: "Stock Portfolio Manager",
+    subtitle: "Web Development and Deployment",
+    description:
+      "A fullstack application written in React, Springboot, and deployed in Openshift that allows users to buy/sell stocks and monitor the status of their portfolio day-to-day.",
+  },
+  {
     name: "Key-Value Data Store",
     subtitle: "Database Architecture and Management",
     description:

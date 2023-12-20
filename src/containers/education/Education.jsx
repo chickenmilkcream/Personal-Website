@@ -18,8 +18,7 @@ const Education = () => {
         >
           brutalist turkey library
         </a>{" "}
-        whenever I get too stressed. And the best part? I made some awesome
-        friends who kept me sane through it all. Can't believe it's over! 🎓😄
+        whenever I get too stressed. And the best part? I made a lot of awesome friends who kept me sane through it all. Can't believe it's over! Maybe I'll go back for a Masters, who knows? 🎓😄
       </p>
     </div>
   );
